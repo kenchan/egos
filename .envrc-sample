@@ -4,3 +4,4 @@ export ACCESS_TOKEN_KEY=
 export ACCESS_TOKEN_SECRET=
 export TAKOSAN_URL='http://takosan.example.com:4980/privmsg'
 export SLACK_CHANNEL='#my_channel'
+export TRACK_KEYWORDS='hashtag1,hashtag2'
