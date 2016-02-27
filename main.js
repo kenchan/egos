@@ -12,7 +12,7 @@ client.stream('statuses/filter', {track: process.env.TRACK_KEYWORDS}, function(s
   stream.on('data', function(tweet) {
     Request.post(process.env.TAKOSAN_URL).form({
       channel: process.env.SLACK_CHANNEL,
-      name: 'ついったーさん'
+      name: 'ついったーさん',
       icon: ':twitter:',
       author_icon: tweet.user.profile_image_url,
       author_name: tweet.user.name,
