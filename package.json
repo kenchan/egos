@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-gitter": "^1.2.9",
     "request": "^2.69.0",
     "twitter": "^1.2.5"
   }

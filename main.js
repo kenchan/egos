@@ -1,5 +1,6 @@
 var Twitter = require('twitter');
 var Request = require('request');
+var Gitter = require('node-gitter');
 
 var client = new Twitter({
   consumer_key: process.env.CONSUMER_KEY,
@@ -18,6 +19,9 @@ client.stream('statuses/filter', {track: process.env.TRACK_KEYWORDS}, function(s
       author_name: tweet.user.name,
       author_link: 'https://twitter.com/' + tweet.user.screen_name,
       text: tweet.text + "\n" + 'https://twitter.com/' + tweet.user.screen_name + '/status/' + tweet.id_str
+    });
+    gitter.rooms.join(proces.env.GITTER_ROOM).then(function(room) {
+      room.send('https://twitter.com/' + tweet.user.screen_name + '/status/' + tweet.id_str);
     });
     console.log(tweet.user.screen_name + ":" + tweet.text);
   });
