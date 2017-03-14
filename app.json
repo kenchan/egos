@@ -1,0 +1,11 @@
+{
+  "name": "egos",
+  "description": "Search on twitter and notify messages to slack",
+  "keywords": [
+    "social",
+    "twitter",
+    "slack"
+  ],
+  "website": "https://github.com/kenchan/egos",
+  "repository": "https://github.com/kenchan/egos"
+}
