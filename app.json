@@ -1,0 +1,24 @@
+{
+  "name": "egos",
+  "description": "Search on twitter and notify messages to slack",
+  "keywords": [
+    "social",
+    "twitter",
+    "slack"
+  ],
+  "website": "https://github.com/kenchan/egos",
+  "repository": "https://github.com/kenchan/egos",
+  "env": {
+    "CONSUMER_KEY": "",
+    "CONSUMER_SECRET": "",
+    "ACCESS_TOKEN_KEY": "",
+    "ACCESS_TOKEN_SECRET": "",
+    "TAKOSAN_URL": {
+      "description": "Set takosan endpoint url. e.g. http://takosan.example.com:4980/privmsg"
+    },
+    "SLACK_CHANNEL": "",
+    "TRACK_KEYWORDS": {
+      "description": "A comma-separated list of phrases. For more details, https://dev.twitter.com/streaming/overview/request-parameters#track"
+    }
+  }
+}
