@@ -7,5 +7,14 @@
     "slack"
   ],
   "website": "https://github.com/kenchan/egos",
-  "repository": "https://github.com/kenchan/egos"
+  "repository": "https://github.com/kenchan/egos",
+  "env": {
+    "CONSUMER_KEY": "",
+    "CONSUMER_SECRET": "",
+    "ACCESS_TOKEN_KEY": "",
+    "ACCESS_TOKEN_SECRET": "",
+    "TAKOSAN_URL": "",
+    "SLACK_CHANNEL": "",
+    "TRACK_KEYWORDS": ""
+  }
 }
