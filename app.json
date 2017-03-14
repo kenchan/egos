@@ -13,8 +13,12 @@
     "CONSUMER_SECRET": "",
     "ACCESS_TOKEN_KEY": "",
     "ACCESS_TOKEN_SECRET": "",
-    "TAKOSAN_URL": "",
+    "TAKOSAN_URL": {
+      "description": "Set takosan endpoint url. e.g. http://takosan.example.com:4980/privmsg"
+    },
     "SLACK_CHANNEL": "",
-    "TRACK_KEYWORDS": ""
+    "TRACK_KEYWORDS": {
+      "description": "A comma-separated list of phrases. For more details, https://dev.twitter.com/streaming/overview/request-parameters#track"
+    }
   }
 }
