@@ -1,1 +1,1 @@
-web: node main.js
+tweet: node main.js
